@@ -297,4 +297,8 @@
   .copyright {
     text-align: center;
   }
+
+  .count-box {
+    width: 95%;
+  }
 }
