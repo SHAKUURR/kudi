@@ -1,0 +1,276 @@
+/* 1283px */
+@media only screen and (max-width: 80.1875em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 892px */
+@media only screen and (max-width: 55.75em) {
+
+  section,
+  footer {
+    padding: 0 3rem;
+  }
+
+  footer {
+    padding-top: 10rem;
+  }
+
+  nav {
+    margin: 2.2rem 5rem 0 5rem;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #F46B45;
+    width: 100%;
+    height: 100vh;
+    padding: 3rem;
+    padding-top: 10rem;
+    transition: .3s ease;
+
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .active {
+    color: #F46B45;
+  }
+
+  .nav-item {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-btn {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .btn-active {
+    margin-left: 0;
+    background-color: #fff;
+    color: #F46B45;
+  }
+
+  nav .openMenu {
+    display: block;
+  }
+
+  .closeMenu {
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+  }
+
+  .hero-text {
+    margin-left: 5rem;
+  }
+
+  .hero-img {
+    margin-top: 6rem;
+    width: 65rem;
+  }
+
+  .partner {
+    padding-top: 10rem;
+  }
+
+  /*..................CHANNELS.......................*/
+  .channel-box {
+    padding: 6rem 5rem;
+  }
+
+  /*..................INTEGRATION.......................*/
+  .integ-text {
+    margin-right: 3rem;
+    width: 50%;
+  }
+
+  /*..................JOIN US.......................*/
+  .join-box {
+    padding: 10rem 4rem;
+  }
+}
+
+/* 840px */
+@media only screen and (max-width: 52.5em) {
+
+  /*..................HERO BANNER.......................*/
+  header {
+    /* height: 160vh; */
+    overflow-x: visible;
+    overflow-y: hidden;
+
+  }
+
+  nav {
+    margin: 2.2rem 5rem 0 5rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-text {
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+
+  .hero-img {
+    /* align-self: flex-end; */
+    width: 100%;
+
+  }
+
+
+  /*..................WHAT YOU EXPECT.......................*/
+  .about-box {
+    flex-direction: column;
+  }
+
+  .top-left,
+  .top-right {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+
+  .bottom-box {
+    margin-top: 0rem;
+  }
+
+  /*..................CHANNELS.......................*/
+  .channel-box {
+    flex-direction: column;
+  }
+
+  .channel-text {
+    margin-right: 0rem;
+    margin-bottom: 10rem;
+  }
+
+  .channel-box img {
+    width: 40%;
+  }
+
+
+  /*..................INTEGRATION.......................*/
+  .integ-box {
+    flex-direction: column;
+  }
+
+  .integ-text {
+    margin: 0 auto 0 auto;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  .integ-stack {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /*..................JOIN US.......................*/
+  .join-box {
+    flex-direction: column;
+  }
+
+  .join-text {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 10rem auto;
+  }
+
+  .join-img {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: auto;
+  }
+
+  .footer-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .details {
+    width: 50%;
+    margin: 0 auto
+  }
+
+  .footer-head {
+    margin-top: 4rem;
+  }
+
+}
+
+
+/* 650px */
+
+@media only screen and (max-width: 40.625em) {
+
+  .top-left,
+  .top-right {
+    width: 100%;
+  }
+
+  /*..................INTEGRATION.......................*/
+  .integ-text {
+    width: 96%;
+  }
+
+  .integ-stack {
+    width: 100%;
+  }
+
+  /*..................CLIENTS TESTIMONY.......................*/
+  .review-box {
+    flex-direction: column;
+  }
+
+  .review {
+    width: 100%;
+  }
+
+  .review:not(:last-child) {
+    margin-right: 0rem;
+    margin-bottom: 4rem;
+  }
+
+  /*..................JOIN US.......................*/
+  .join-box {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .join-text {
+    width: 100%;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}

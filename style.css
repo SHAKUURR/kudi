@@ -1,0 +1,603 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+section,
+footer {
+  padding: 0 10rem;
+}
+
+header {
+  max-height: 100vh;
+  overflow: hidden;
+
+}
+
+/*..................NAV BAR.......................*/
+nav {
+  margin: 2.2rem 10rem 0 10rem;
+  padding: .5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 80%;
+  transition: 0.2s ease;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 5rem;
+  font-size: 1.8rem;
+
+
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.active {
+  color: #F46B45;
+}
+
+.nav-list {
+  list-style: none;
+
+
+}
+
+
+/*NAV BUTTON*/
+.nav-btn {
+  font-size: 1.5rem;
+  padding: 1rem 2.5rem;
+  border: 1px solid #333;
+  color: #333;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.btn-active {
+  margin-left: 2rem;
+  background-color: #F46B45;
+  color: #fff;
+  border: none;
+}
+
+nav .openMenu {
+  font-size: 2.5rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.closeMenu {
+  font-size: 3rem;
+  display: none;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+
+/*..................HERO BANNER.......................*/
+.hero {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hero-text {
+  margin-top: 8rem;
+  align-self: self-start;
+  margin-left: 10rem;
+}
+
+.hero-head {
+  color: #0D67D1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.hero-parag {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.hero-img {
+  margin-right: -8rem;
+  width: 77rem;
+}
+
+.hero-link {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 1.6rem 3rem;
+  text-decoration: none;
+  background-color: #F3723F;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/*..................PARNTERS SECTION.......................*/
+.partner {
+  text-align: center;
+  padding-top: 13rem;
+}
+
+.partner-text {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.p-logo {
+  width: 8%;
+  aspect-ratio: 5/3;
+  object-fit: contain;
+
+}
+
+.p-logo:not(:last-child) {
+  margin-right: 9rem;
+}
+
+
+/*..................WHAT YOU EXPECT.......................*/
+
+.section-about {
+  margin-top: 8rem;
+}
+
+.about-head {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 5rem;
+}
+
+.left-head,
+.right-head {
+  font-size: 1.8rem;
+  font-family: 'Mulish';
+  margin-bottom: 1.3rem;
+}
+
+.left-parag,
+.right-parag {
+  font-size: 1.5rem;
+  font-family: 'Mulish';
+  line-height: 2.5rem;
+}
+
+
+
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bottom-box {
+  margin-top: 3rem;
+}
+
+
+
+.top-left,
+.top-right {
+  display: flex;
+  align-items: center;
+  background-color: #F6F7FD;
+  border-radius: 2rem;
+  padding: 3rem;
+  width: 49%;
+  height: 26rem;
+
+}
+
+.right-text,
+.left-text {
+  margin-top: 2rem;
+}
+
+.left-img,
+.right-img {
+  width: 7rem;
+  margin-right: 2rem;
+}
+
+/*..................CHANNELS.......................*/
+.channel {
+  padding-top: 10rem;
+  color: #fff;
+  font-family: 'Mulish';
+}
+
+.channel-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(244, 107, 69, 0.85) 0%, #17559D 100%);
+  padding: 6rem 10rem;
+  border-radius: 2rem;
+}
+
+.channel-text {
+  margin-right: 15rem;
+}
+
+.channel-text h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 7.8rem;
+}
+
+.channel-text h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 5rem;
+  margin-bottom: 4.3rem;
+
+}
+
+.channel-text p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.channel-box img {
+  width: 30rem;
+  height: auto;
+}
+
+/*..................INTEGRATION.......................*/
+.section-integ {
+  padding-top: 11rem;
+}
+
+.integ-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.integ-text {
+  margin-right: 9rem;
+  margin-top: 7rem;
+  width: 40%;
+}
+
+.integ-text h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+
+.integ-text h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 4.3rem;
+  line-height: 4rem;
+}
+
+.integ-text p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+
+
+.integ-stack {
+  background: linear-gradient(180deg, #F46B45 0%, #515CCB 100%);
+  border-radius: 20px;
+  padding: 4rem;
+  flex: 1;
+}
+
+.stack-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-size: 1.6rem;
+  font-family: 'Mulish';
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  margin-bottom: 3.2rem;
+}
+
+
+
+
+.active {
+  color: #F46B45;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
+
+.stack-text {
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 4rem;
+  letter-spacing: -0.02em
+}
+
+/*..................COUNT......................*/
+.count-box {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  padding-top: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.count h2 {
+  font-size: 3.5rem;
+  color: rgba(6, 38, 120, 0.85);
+  margin-bottom: 1.3rem;
+
+}
+
+.count p {
+  font-size: 1.4rem;
+}
+
+
+/*..................OUR PRODUCTS.......................*/
+.section-product {
+  padding-top: 12rem;
+}
+
+.section-product h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/*..................CLIENTS TESTIMONY.......................*/
+.section-review {
+  padding-top: 10rem;
+  font-family: 'Mulish';
+  font-weight: 600;
+  overflow: hidden;
+
+}
+
+.section-review h2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 2.6rem;
+}
+
+.review-text {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 5.6rem;
+}
+
+.review-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.review {
+  background-color: #F6F7FD;
+  border-radius: 8px;
+  width: 45%;
+  padding: 3rem 4rem;
+
+}
+
+.review:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.review h3 {
+  font-size: 2rem;
+  color: #2268BA;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+
+.review-parag {
+  color: #867E7E;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+}
+
+.client {
+  font-size: 2rem;
+  margin-bottom: .6rem;
+}
+
+.job {
+  font-size: 1.4rem;
+}
+
+.slider-box {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  background-color: #D9D9D9;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.slider:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/*..................JOIN US.......................*/
+.section-join {
+  padding-top: 10rem;
+}
+
+.join-box {
+  background: #F46B45;
+  border-radius: 30.5367px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13rem 6rem;
+  padding-bottom: 4rem;
+
+}
+
+.join-text {
+  width: 42%;
+}
+
+.join-text h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  margin-bottom: 2.7rem;
+}
+
+.join-text p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 4.2rem;
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+}
+
+.join-link {
+  text-decoration: none;
+  background: #F6F7FD;
+  border-radius: 10px;
+  color: #F46B45;
+  font-family: 'Poppins';
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+
+}
+
+.join-img {
+  width: 50rem;
+}
+
+/*..................FOOTER......................*/
+footer {
+  padding-top: 13rem;
+  color: #494949;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.details {
+  width: 30%;
+}
+
+.details img,
+footer h2 {
+  margin-bottom: 2.3rem;
+}
+
+.details-parag {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+footer h2 {
+  font-family: 'Montserrat';
+  font-size: 1.8rem;
+
+}
+
+.footer-list li {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #494949;
+  font-size: 1.6rem;
+}
+
+.copyright {
+  margin-top: 13.5rem;
+}
+
+.copyright p {
+  font-size: 1.3rem;
+  border-top: 2px solid #494949;
+  padding-top: 2rem;
+}
+
+/* .container {
+  width: 227%;
+  overflow: hidden;
+
+  padding-left: 1rem;
+  background-color: blue;
+} */
+
+/* .act {
+  width: 2rem;
+}
+
+.test {
+  overflow: hidden;
+  background-color: red;
+  width: 90%;
+} */

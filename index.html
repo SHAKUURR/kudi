@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Mulish:wght@400;500;600&family=Poppins:wght@500&display=swap"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c6614d5790.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <title>KUDISMS</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="images/logo.png">
+        <div class="menu">
+          <ul class="nav-item">
+            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+          </ul>
+          <div class="btn">
+            <a href="#" class="nav-btn">Log in</a>
+            <a href="#" class="nav-btn btn-active">Sign up</a>
+          </div>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+      </nav>
+      <!-- ............HERO BANNER...................................... -->
+      <div class="hero">
+        <div class="hero-text">
+          <h1 class="hero-head">Accelerate connections that are important to your business.</h1>
+          <p class="hero-parag">Join 30,000+ businesses that use Spendo's platform and APIs to collect, clean, and
+            control their customer experience.</p>
+          <a href="#" class="hero-link">Start messaging now&nbsp;&nbsp;&nbsp;🥳</a>
+        </div>
+        <img src="/images/hero1.png" class="hero-img">
+      </div>
+    </header>
+    <section class="partner">
+      <h2 class="partner-text">Effective scheduling solutions for businesses of all sizes</h2>
+      <div class="partner-logos">
+        <img src="images/dkt.png" class="p-logo">
+        <img src="images/cheki.png" class="p-logo">
+        <img src="images/jobberman.png" class="p-logo">
+        <img src="images/firs.png" class="p-logo">
+      </div>
+    </section>
+    <section class="section-about">
+      <h2 class="about-head">What to expect from us</h2>
+      <div class="about-box">
+        <div class="top-left">
+          <img src="images/msg.png" alt="" class="left-img">
+          <div class="left-text">
+            <h3 class="left-head">Cross-Channel Messaging</h3>
+            <p class="left-parag">Use sms, email, voice & IM channels to verify, authenticate and engage customers</p>
+          </div>
+        </div>
+        <div class="top-right">
+          <img src="images/check.png" class="right-img">
+          <div class="right-text">
+            <h3 class="right-head">Reliability</h3>
+            <p class="right-parag">Stability and reliability is utmost for us. We pride ourselves in ensuring we are
+              up 99.99%
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-box bottom-box">
+        <div class="top-left">
+          <img src="images/support.png" alt="" class="left-img">
+          <div class="left-text">
+            <h3 class="left-head">Support</h3>
+            <p class="left-parag">We don’t want to just sell to you. We support you till you succeed with trusted
+              support team and resources whenever you
+              want.</p>
+          </div>
+        </div>
+        <div class="top-right">
+          <img src="images/integ.png" class="right-img">
+          <div class="right-text">
+            <h3 class="right-head">Quick Integration</h3>
+            <p class="right-parag">Integrate messaging APIs to your application in less than 60 minutes using
+              pre-installed configurations
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="channel">
+      <div class="channel-box">
+        <div class="channel-text">
+          <h2>Channels</h2>
+          <h3>Send, receive messages and build customer relationships across different messaging channels</h3>
+          <p>Kudisms most seamless, affordable & authentic way to convert, engage, and retain more customers via
+            different
+            messaging
+            channels - all with zero coding skills to get started.</p>
+        </div>
+        <img src="images/social.png" alt="social">
+      </div>
+    </section>
+    <section class="section-integ">
+      <div class="integ-box">
+        <div class="integ-text">
+          <h2>Integration</h2>
+          <h3>Powerful APIs built with ease in mind: Choose your preferred code language - we'll adapt.</h3>
+          <p>Whatever it is you want to build, we’re here to make it as easy as possible. Our APIs & SDKs are tried and
+            true!
+            Documentation as well as other resources to make you setup under 10 minutes.</p>
+        </div>
+        <div class="integ-stack">
+          <div class="stack-nav">
+            <button type="button" class="button node active">Node JS</button>
+            <button class="button Java">Java</button>
+            <button type="button" class="button python">Python</button>
+          </div>
+          <p class="stack-text" id="nodeText">const request = require('request');<br><br>const options = {<br> method:
+            'POST',<br>
+            url:
+            'https://api.sendchamp.com/api/v1/sms/send',<br> headers: {<br> Accept: 'application/json, */*',<br>
+            'Content-Type':
+            'application/json',<br> Authorization: 'Bearer {Access Key}'<br> },<br> form: {</p>
+          <p class="stack-text" id="javaText" style="display: none; font-size: 1.1rem;">OkHttpClient client = new
+            OkHttpClient();<br><br>MediaType mediaType =
+            MediaType.parse("application/x-www-form-urlencoded");<br>RequestBody body = RequestBody.create(mediaType,
+            "to=2348170881742&message=Test%20message&sender_name=jide&route=international");<br>Request request = new
+            Request.Builder()<br> .url("https://api.sendchamp.com/api/v1/sms/send")<br> .post(body)<br>
+            .addHeader("Accept",
+            "application/json, */*")<br> .addHeader("Content-Type", "application/json")<br></p>
+          <p class="stack-text" id="pythonText" style="display: none;font-size: 1.1rem">import requests<br><br>url =
+            "https://api.sendchamp.com/api/v1/sms/send"<br><br>payload =
+            "to=2348170881742&message=Test%20message&sender_name=jide&route=international"<br>headers = {<br> "Accept":
+            "application/json,
+            */*",<br> "Content-Type": "application/json",<br> "Authorization": "Bearer {Access Key}"<br>}<br></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="count-box">
+      <div class="count">
+        <h2>14M+</h2>
+        <p>Messages Processed</p>
+      </div>
+      <div class="count">
+        <h2>1M+</h2>
+        <p>Customers Reached</p>
+      </div>
+      <div class="count">
+        <h2>1K+</h2>
+        <p>Developers Community</p>
+      </div>
+    </div>
+
+    <section class="section-product">
+      <h2>Our Products</h2>
+      <div class="about-box">
+        <div class="top-left">
+          <img src="images/sms.png" alt="" class="left-img">
+          <div class="left-text">
+            <h3 class="left-head">Bulk SMS</h3>
+            <p class="left-parag">Easily validate and send bulk sms for individuals and transactions using our Bulk
+              service.</p>
+          </div>
+        </div>
+        <div class="top-right">
+          <img src="images/call.png" class="right-img">
+          <div class="right-text">
+            <h3 class="right-head">Voice Calls</h3>
+            <p class="right-parag">Easily validate individuals and transactions using voice OTP..
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-box bottom-box">
+        <div class="top-left">
+          <img src="images/whatsapp.png" alt="" class="left-img">
+          <div class="left-text">
+            <h3 class="left-head">Whatsapp</h3>
+            <p class="left-parag">Easily validate individuals and transactions using whatsapp.</p>
+          </div>
+        </div>
+        <div class="top-right">
+          <img src="images/team.png" class="right-img">
+          <div class="right-text">
+            <h3 class="right-head">Team Management</h3>
+            <p class="right-parag">Easily validate individuals and transactions using whatsapp.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-review">
+      <h2>Testimonials From Our Customers</h2>
+      <p class="review-text">Check out the reviews from our customers</p>
+      <div class="container">
+        <div class="test">
+          <div class="review-box" id="slide">
+            <div class="review">
+              <h3>Great quality!</h3>
+              <p class="review-parag">Without jobHunt i’d be homeless, they found a job and got me sorted out
+                quickly with everything! Can’t quite... The Mitech team works really hard to
+                ensure high level of quality</p>
+              <p class="client">Gabriel Nolan</p>
+              <p class="job">Consultant</p>
+            </div>
+
+            <div class="review">
+              <h3>Awesome Design!</h3>
+              <p class="review-parag">Without jobHunt i’d be homeless, they found a job and got me sorted out
+                quickly with everything! Can’t quite... The Mitech team works really hard to
+                ensure high level of quality</p>
+              <p class="client">Dan Walter</p>
+              <p class="job">Designer</p>
+            </div>
+
+            <!-- <div class="review">
+              <h3>Awesome Design!</h3>
+              <p class="review-parag">Without jobHunt i’d be homeless, they found a job and got me sorted out
+                quickly with everything! Can’t quite... The Mitech team works really hard to
+                ensure high level of quality</p>
+              <p class="client">Dan Walter</p>
+              <p class="job">Designer</p>
+            </div>
+
+            <div class="review">
+              <h3>Awesome Design!</h3>
+              <p class="review-parag">Without jobHunt i’d be homeless, they found a job and got me sorted out
+                quickly with everything! Can’t quite... The Mitech team works really hard to
+                ensure high level of quality</p>
+              <p class="client">Dan Walter</p>
+              <p class="job">Designer</p>
+            </div> -->
+
+          </div>
+        </div>
+        <div class="slider-box">
+          <span class="slider act"></span>
+          <span class="slider"></span>
+          <span class="slider"></span>
+          <span class="slider"></span>
+        </div>
+      </div>
+    </section>
+    <section class="section-join">
+      <div class="join-box">
+        <div class="join-text">
+          <h2>We can’t wait to have you join us</h2>
+          <p>Account creation with KudiSMS is easy. All you need to do is to sign-up with your basic info and our API
+            token will be
+            sent to your registered e-mail ID within a matter of seconds.</p>
+          <a href="#" class="join-link">Get Started</a>
+        </div>
+        <img src="images/tel.png" class="join-img">
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-box">
+        <div class="details">
+          <img src="images/logo.png">
+          <p class="details-parag">KudiSMS helps businesses use messaging channels to verify and authenticate customer
+            transactions</p>
+        </div>
+        <div class="footer-head">
+          <h2>Product</h2>
+          <ul class="footer-list">
+            <li><a href="#">Channels/Routers</a></li>
+            <li><a href="#">Verification</a></li>
+            <li><a href="#">No-code tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-head">
+          <h2>Company</h2>
+          <ul class="footer-list">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+        <div class="footer-head">
+          <h2>Ibadan, Nigeria</h2>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright KudiSMS 2023 All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
