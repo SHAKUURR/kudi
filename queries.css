@@ -125,7 +125,7 @@
 
   /*..................HERO BANNER.......................*/
   header {
-    /* height: 160vh; */
+    height: auto;
     overflow-x: visible;
     overflow-y: hidden;
 
@@ -141,6 +141,7 @@
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+
   }
 
   .hero-text {
@@ -150,7 +151,7 @@
 
   .hero-img {
     /* align-self: flex-end; */
-    width: 35%;
+    width: 80%;
 
   }
 
@@ -247,7 +248,17 @@
   }
 
   .p-logo:not(:last-child) {
-    margin-right: 4rem;
+    margin-right: 3rem;
+  }
+
+  /*..................CHANNELS.......................*/
+  .channel-box {
+    padding: 2rem;
+  }
+
+  .channel-box img {
+    width: 80%;
+    height: auto;
   }
 
   /*..................INTEGRATION.......................*/

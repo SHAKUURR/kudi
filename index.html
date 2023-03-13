@@ -130,16 +130,18 @@
             'https://api.sendchamp.com/api/v1/sms/send',<br> headers: {<br> Accept: 'application/json, */*',<br>
             'Content-Type':
             'application/json',<br> Authorization: 'Bearer {Access Key}'<br> },<br> form: {</p>
-          <p class="stack-text" id="javaText" style="display: none; font-size: 1.1rem;">OkHttpClient client = new
+          <p class="stack-text" id="javaText" style="display: none; font-size: .9rem;">OkHttpClient client = new
             OkHttpClient();<br><br>MediaType mediaType =
             MediaType.parse("application/x-www-form-urlencoded");<br>RequestBody body = RequestBody.create(mediaType,
-            "to=2348170881742&message=Test%20message&sender_name=jide&route=international");<br>Request request = new
+            "to=2348170881742&message=<br>Test%20message&sender_name=jide&route=international");<br>Request request =
+            new
             Request.Builder()<br> .url("https://api.sendchamp.com/api/v1/sms/send")<br> .post(body)<br>
             .addHeader("Accept",
             "application/json, */*")<br> .addHeader("Content-Type", "application/json")<br></p>
-          <p class="stack-text" id="pythonText" style="display: none;font-size: 1.1rem">import requests<br><br>url =
+          <p class="stack-text" id="pythonText" style="display: none;font-size: 1rem">import requests<br><br>url =
             "https://api.sendchamp.com/api/v1/sms/send"<br><br>payload =
-            "to=2348170881742&message=Test%20message&sender_name=jide&route=international"<br>headers = {<br> "Accept":
+            "to=2348170881742&message=Test%20message&sender_name<br>=jide&route=international"<br>headers = {<br>
+            "Accept":
             "application/json,
             */*",<br> "Content-Type": "application/json",<br> "Authorization": "Bearer {Access Key}"<br>}<br></p>
         </div>
